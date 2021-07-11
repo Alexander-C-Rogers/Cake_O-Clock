@@ -1,0 +1,50 @@
+{
+  "name": "cake_website",
+  "version": "1.0.0",
+  "description": "cake bake that expanding their website",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "bin/wdio-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexander-C-Rogers/Cake_O-Clock.git"
+  },
+  "author": "Alexander-C-Rogers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexander-C-Rogers/Cake_O-Clock/issues"
+  },
+  "homepage": "https://github.com/Alexander-C-Rogers/Cake_O-Clock#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "debug": "^4.3.2",
+    "express-handlebars": "^5.3.2",
+    "express-session": "^1.17.2",
+    "jsdom": "^16.6.0",
+    "mongoose": "^5.13.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.6.5",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint-config-google": "^0.14.0",
+    "express": "^4.17.1",
+    "mocha": "^9.0.2",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2",
+    "sequelize-cli": "^6.2.0",
+    "supertest": "^6.1.3"
+  }
+}
